@@ -1,0 +1,8 @@
+### client/.dockerignore
+```
+node_modules
+dist
+.env
+.git
+.gitignore
+README.md

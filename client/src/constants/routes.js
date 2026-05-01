@@ -1,0 +1,22 @@
+export const ROUTES = {
+  HOME: '/',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  MENU: '/menu',
+  MENU_DETAIL: '/menu/:id',
+  RESERVATION: '/reservation',
+  MY_RESERVATIONS: '/my-reservations',
+  CART: '/cart',
+  CHECKOUT: '/checkout',
+  MY_ORDERS: '/my-orders',
+  PROFILE: '/profile',
+  ADMIN: {
+    DASHBOARD: '/admin',
+    USERS: '/admin/users',
+    TABLES: '/admin/tables',
+    CATEGORIES: '/admin/categories',
+    MENU: '/admin/menu',
+    RESERVATIONS: '/admin/reservations',
+    ORDERS: '/admin/orders',
+  },
+};
